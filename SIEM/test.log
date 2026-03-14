@@ -1,0 +1,5 @@
+2025-03-06 08:23:11 INFO 192.168.1.1 User 'admin' logged in successfully
+2025-03-06 08:45:32 WARNING 192.168.1.105 Failed login attempt for user 'root' (attempt 3/5)
+2025-03-06 08:45:32 WARNING 192.168.1.105 Failed login attempt for user 'root' (attempt 3/5)
+2025-03-06 09:12:54 ERROR 192.168.200.3 Connection timeout - unable to reach database server
+2025-03-06 09:47:19 CRITICAL 192.168.15.2 Unauthorized access attempt detected on port 443
