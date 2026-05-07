@@ -1,7 +1,3 @@
-"""Human-friendly alert printing for the CLI.
-
-Uses `rich` when available; falls back to plain text if not installed.
-"""
 from __future__ import annotations
 
 from typing import TYPE_CHECKING
