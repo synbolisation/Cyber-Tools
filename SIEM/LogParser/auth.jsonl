@@ -1,0 +1,6 @@
+{"timestamp": "2025-03-06T11:00:00Z", "level": "INFO",  "src_ip": "10.0.0.1",  "user": "admin", "event": "successful_login", "msg": "admin logged in"}
+{"timestamp": "2025-03-06T11:05:00Z", "level": "WARN", "src_ip": "203.0.113.7", "user": "root", "event": "failed_login", "msg": "auth failed"}
+{"timestamp": "2025-03-06T11:05:10Z", "level": "WARN", "src_ip": "203.0.113.7", "user": "root", "event": "failed_login", "msg": "auth failed"}
+{"timestamp": "2025-03-06T11:05:20Z", "level": "WARN", "src_ip": "203.0.113.7", "user": "root", "event": "failed_login", "msg": "auth failed"}
+{"timestamp": "2025-03-06T11:05:30Z", "level": "WARN", "src_ip": "203.0.113.7", "user": "root", "event": "failed_login", "msg": "auth failed"}
+{"timestamp": "2025-03-06T11:05:40Z", "level": "WARN", "src_ip": "203.0.113.7", "user": "root", "event": "failed_login", "msg": "auth failed"}

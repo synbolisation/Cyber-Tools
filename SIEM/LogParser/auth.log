@@ -1,0 +1,15 @@
+2025-03-06 08:23:11 INFO 192.168.1.1 User 'admin' logged in successfully
+2025-03-06 08:45:32 WARNING 192.168.1.105 Failed login attempt for user 'root' (attempt 1/5)
+2025-03-06 08:45:35 WARNING 192.168.1.105 Failed login attempt for user 'root' (attempt 2/5)
+2025-03-06 08:45:38 WARNING 192.168.1.105 Failed login attempt for user 'root' (attempt 3/5)
+2025-03-06 08:45:41 WARNING 192.168.1.105 Failed login attempt for user 'root' (attempt 4/5)
+2025-03-06 08:45:44 WARNING 192.168.1.105 Failed login attempt for user 'root' (attempt 5/5)
+2025-03-06 08:45:47 WARNING 192.168.1.105 Failed login attempt for user 'root' (attempt 6/5)
+2025-03-06 09:12:54 ERROR 192.168.200.3 Connection timeout - unable to reach database server
+2025-03-06 09:30:00 WARNING 10.0.0.5 Failed login attempt for user 'alice' (attempt 1/5)
+2025-03-06 09:30:30 WARNING 10.0.0.6 Failed login attempt for user 'alice' (attempt 2/5)
+2025-03-06 09:31:00 WARNING 10.0.0.7 Failed login attempt for user 'alice' (attempt 3/5)
+2025-03-06 09:31:30 WARNING 10.0.0.8 Failed login attempt for user 'alice' (attempt 4/5)
+2025-03-06 09:32:00 WARNING 10.0.0.9 Failed login attempt for user 'alice' (attempt 5/5)
+2025-03-06 09:47:19 CRITICAL 192.168.15.2 Unauthorized access attempt detected on port 443
+2025-03-06 10:01:00 INFO 192.168.1.50 User 'bob' logged in successfully

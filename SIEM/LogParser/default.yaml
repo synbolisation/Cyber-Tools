@@ -1,0 +1,57 @@
+# Default detection rules.
+# Add your own — id must be unique. See detectors/rules.py for schema.
+
+- id: brute_force_login
+  name: "Brute-force login"
+  severity: HIGH
+  description: "5+ failed logins from the same source IP within 5 minutes."
+  match:
+    event_type: failed_login
+  threshold:
+    count: 5
+    window_seconds: 300
+    group_by: source_ip
+
+- id: failed_root_login
+  name: "Failed login as root"
+  severity: MEDIUM
+  description: "Any failed login attempt targeting the root account."
+  match:
+    event_type: failed_login
+    username: root
+
+- id: unauthorized_access
+  name: "Unauthorized access attempt"
+  severity: HIGH
+  description: "An unauthorized access event was logged."
+  match:
+    event_type: unauthorized_access
+
+- id: critical_event
+  name: "Critical-severity log event"
+  severity: HIGH
+  description: "Any log line with CRITICAL severity."
+  match:
+    severity: CRITICAL
+
+- id: credential_stuffing
+  name: "Credential stuffing"
+  severity: HIGH
+  description: "10+ failed logins from the same IP within 60s — likely automated."
+  match:
+    event_type: failed_login
+  threshold:
+    count: 10
+    window_seconds: 60
+    group_by: source_ip
+
+- id: distributed_brute_force
+  name: "Distributed brute-force on a single account"
+  severity: HIGH
+  description: "5+ failed logins for the same username from different sources within 5m."
+  match:
+    event_type: failed_login
+  threshold:
+    count: 5
+    window_seconds: 300
+    group_by: username
